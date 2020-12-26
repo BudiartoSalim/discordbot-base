@@ -1,0 +1,29 @@
+{
+  "name": "discordbot-base",
+  "version": "1.0.0",
+  "description": "Base project setup for a DiscordJs project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "npx nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BudiartoSalim/discordbot-base.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BudiartoSalim/discordbot-base/issues"
+  },
+  "homepage": "https://github.com/BudiartoSalim/discordbot-base#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.6"
+  }
+}
