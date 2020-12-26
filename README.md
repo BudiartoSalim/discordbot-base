@@ -2,8 +2,10 @@
 Base project setup for a DiscordJs project
 
 # how to use
-This script is sample setup / boilerplate for discord bot projects
-Main branch contains the monolithic version, check the other branches for another versions
+This script is sample setup / boilerplate for discord bot projects.
+Main branch contains the monolithic version, check the other branches for another versions.
+
+How to get your own bot token: https://discordjs.guide/preparations/setting-up-a-bot-application.html#creating-your-bot
 
 Discord token and prefix are defined in environment variable; for development, make sure to create .env using the .envtemplate file and fill in the environment variables there to connect to your bot, as well as the prefix for the bot command.
 
