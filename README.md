@@ -7,7 +7,7 @@ Main branch contains the monolithic version, check the other branches for anothe
 
 How to get your own bot token: https://discordjs.guide/preparations/setting-up-a-bot-application.html#creating-your-bot
 
-Discord token and prefix are defined in environment variable; for development, make sure to create .env using the .envtemplate file and fill in the environment variables there to connect to your bot, as well as the prefix for the bot command.
+Discord token and prefix are defined in environment variable; for development, make sure to create .env using the .envtemplate file and fill in the environment variables there to connect to your bot, as well as the prefix for the bot command. For production, don't forget to set the environment variables on wherever you host the bot at.
 
 You can put any if/else statements on the client.on("message") for conditional responses.
 
@@ -16,5 +16,5 @@ The variable nextcommand contains to the 2nd word after the prefix.
 The variable args is an array of all of the words in the message starting from 3rd word onwards.
 
 # commands
-npm run start => starts the bot (for production)
-npm run dev => starts the bot with nodemon (for devs)
+- npm run start => starts the bot (for production)
+- npm run dev => starts the bot with nodemon (for devs)
